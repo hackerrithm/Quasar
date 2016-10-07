@@ -1,13 +1,5 @@
-#cur = connection.cursor()
-
-#cur.execute("SELECT * FROM user")
-
-#print(cur.description)
-
-#print()
-
-#for row in cur:
-#    print(row)
-
-#cur.close()
-#connection.close()
+# MySQL configurations
+MYSQL_DATABASE_USER = 'root'
+MYSQL_DATABASE_PASSWORD = 'kemar'
+MYSQL_DATABASE_DB = 'quasardb'
+MYSQL_DATABASE_HOST = 'localhost'
